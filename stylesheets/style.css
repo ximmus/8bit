@@ -1,0 +1,47 @@
+/* line 6, ../sass/_reset.scss */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  line-height: 1.5em;
+  text-decoration: none;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1, ../sass/_canvas.scss */
+.canvas {
+  margin: auto;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 440px;
+  width: 440px;
+}
+
+/* line 1, ../sass/_pixel.scss */
+.pixel {
+  display: block;
+  height: 44px;
+  width: 44px;
+  border: 1px dotted #CCC;
+  float: left;
+}
+/* line 7, ../sass/_pixel.scss */
+.pixel:hover {
+  background-color: #CCC;
+}
+
+/* line 12, ../sass/_pixel.scss */
+.painted {
+  background-color: red;
+}

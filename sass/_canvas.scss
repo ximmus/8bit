@@ -1,0 +1,10 @@
+.canvas {
+  margin: auto;
+  z-index: 999;
+  position: fixed;
+  top: 0; left: 0; bottom: 0; right: 0;
+  
+  // each "pixel" is 44px x 44px this is a 10x10 grid
+  height: 440px;
+  width: 440px;
+}

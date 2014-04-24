@@ -1,0 +1,16 @@
+// compass
+@import "compass/css3/box-sizing";
+
+*,
+*:before, 
+*:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  line-height: 1.5em;
+  text-decoration: none;
+  vertical-align: baseline;
+  @include box-sizing(border-box);
+}

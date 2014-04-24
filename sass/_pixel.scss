@@ -1,0 +1,14 @@
+.pixel {
+  display: block;
+  height: 44px;
+  width: 44px;
+  border: 1px dotted #CCC;
+  float: left;
+  &:hover {
+    background-color: #CCC;
+  }
+}
+
+.painted {
+  background-color: red;
+}
