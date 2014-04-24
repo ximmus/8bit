@@ -1,0 +1,12 @@
+.colorwheel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+
+  li {
+    display: block;
+    height: 44px;
+    width: 44px;
+  }
+}

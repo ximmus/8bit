@@ -1920,3 +1920,17 @@
 .color-000000 {
   background-color: #000000;
 }
+
+/* line 1, ../sass/_colorwheel.scss */
+.colorwheel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+}
+/* line 7, ../sass/_colorwheel.scss */
+.colorwheel li {
+  display: block;
+  height: 44px;
+  width: 44px;
+}
