@@ -3,7 +3,7 @@
   [
     {
     "path": "/",
-    "name": "Starter Project",
+    "name": "8bit Project",
     "file_exclude_patterns": 
       [ 
       "*.sublime-project",
